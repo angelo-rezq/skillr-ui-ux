@@ -21,11 +21,13 @@ The design keeps the split simple: one role-selection screen, then a tailored fl
 - **Sign-up** — name, Egyptian mobile number with country picker, and a password field with live rule validation (letter, number, special character, minimum length).
 - **Verification** — 4-digit OTP screen with a native keypad.
 - **Login & recovery** — returning-user login and a complete forgot-password flow.
+- **Marketplace browsing** — home with popular services and categories (plumbing, carpentry, cleaning, electrical help, babysitting), plus a dedicated search screen with popular searches.
+- **Everyday states** — location-access prompt, offline error screen with retry, and the More tab (payment methods, saved addresses, rate the app).
 - **Clean visual system** — light, minimal screens with a single confident accent color and generous whitespace.
 
 ## Screens
 
-The full screen set is in [`/screens`](./screens): role selection, registration, OTP, login, and password recovery states.
+The full screen set is in [`/screens`](./screens): role selection, registration, OTP, login, password recovery, home, search, and system states.
 
 ## Author
 
